@@ -63,6 +63,7 @@ nnoremap X "_X
 nnoremap d "_d
 nnoremap D "_D
 nnoremap dd "_dd
+nnoremap diw "_diw
 
 " 创建自定义的剪切命令，复制到系统剪贴板
 noremap <leader>d "+d
@@ -77,8 +78,26 @@ nnoremap gl $
 " 将l映射为l，解决在windows的clion中，l有延迟的问题
 nnoremap l l
 
-" ****************** IDEA keymapping ******************
+" 将关闭标签页按钮映射
+nnoremap <leader>tc :tabc<CR>
+nnoremap <leader>to :tabo<CR>
 
-nnoremap <leader>gd :action GoToDeclaration<CR>
-nnoremap <leader>gu :action GoToDeclarationOrUsages<CR>
-nnoremap <leader>gi :action GoToImplementations<CR>
+" 映射移动文本快捷键
+nnoremap <C-u> :m+1<CR>
+nnoremap <C-i> :m-2<CR>
+vnoremap <C-u> :'<,'>m+2<CR>gv
+vnoremap <C-i> :'<,'>m-2<CR>gv
+
+" ****************** IDEA keymapping ******************
+nnoremap <leader>gd :action GotoDeclaration<CR>
+nnoremap <leader>gtd :action GotoTypeDeclaration<CR>
+nnoremap <leader>gi :action GotoImplementation<CR>
+nnoremap <leader>gu :action ShowUsages<CR>
+nnoremap <leader>se :action SearchEverywhere<CR>
+nnoremap <leader>gc :action GotoClass<CR>
+nnoremap <leader>gf :action GotoFile<CR>
+nnoremap <leader>gs :action GotoSymbol<CR>
+nnoremap <leader>ga :action GotoAction<CR>
+nnoremap <leader>gsu :action GotoSuperMethod<CR>
+nnoremap <C-,> :action Back<CR>
+nnoremap <C-.> :action Forward<CR>
