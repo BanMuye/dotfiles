@@ -107,10 +107,10 @@ nnoremap <leader>tc :tabc<CR>
 nnoremap <leader>to :tabo<CR>
 
 " 映射移动文本快捷键
-nnoremap <C-j> :m+1<CR>
-nnoremap <C-k> :m-2<CR>
-vnoremap <C-j> :'<,'>m+2<CR>gv
-vnoremap <C-k> :'<,'>m-2<CR>gv
+nnoremap <C-j> mz:m+<cr>`z
+nnoremap <C-k> mz:m-2<cr>`z
+vnoremap <C-j> :m'>+<cr>`<my`>mzgv`yo`z
+vnoremap <C-k> :m'<-2<cr>`>my`<mzgv`yo`z 
 
 " ****************** IDEA keymapping ******************
 nnoremap <leader>gd :action GotoDeclaration<CR>
