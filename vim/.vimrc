@@ -110,26 +110,8 @@ nnoremap <leader>to :tabo<CR>
 nnoremap <C-j> mz:m+<cr>`z
 nnoremap <C-k> mz:m-2<cr>`z
 vnoremap <C-j> :m'>+<cr>`<my`>mzgv`yo`z
-vnoremap <C-k> :m'<-2<cr>`>my`<mzgv`yo`z 
+vnoremap <C-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 " ****************** IDEA keymapping ******************
-nnoremap <leader>gd :action GotoDeclaration<CR>
-nnoremap <leader>gi :action GotoImplementation<CR>
-nnoremap <leader>gu :action ShowUsages<CR>
-nnoremap <leader>ge :action SearchEverywhere<CR>
-nnoremap <leader>gc :action GotoClass<CR>
-nnoremap <leader>gf :action GotoFile<CR>
-nnoremap <leader>gs :action GotoSymbol<CR>
-nnoremap <leader>ga :action GotoAction<CR>
-nnoremap <leader>gp :action GotoSuperMethod<CR>
-nnoremap <leader>gt :action FindInPath<CR>
-
-nnoremap <leader>dg :action Generate<CR>
-nnoremap <leader>do :action OverrideMethods<CR>
-nnoremap <leader>di :action ImplementMethods<CR>
-nnoremap <leader>dd :action CppGenerateDefinitions<CR>
-nnoremap <leader>dr :action RenameElement<CR>
-nnoremap <leader>df :action ReformatCode<CR>
-
 nnoremap <C-,> :action Back<CR>
 nnoremap <C-.> :action Forward<CR>
