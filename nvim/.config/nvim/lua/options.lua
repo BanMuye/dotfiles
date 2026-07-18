@@ -4,7 +4,7 @@ vim.opt.mouse = 'a' -- allow use mouse
 
 -- Tab
 vim.opt.tabstop = 4 -- number of virtual spaces per Tab
-vim.opt.softtapstop = 4 -- number of spaces in tab when editing
+vim.opt.softtabstop = 4 -- number of spaces in tab when editing
 vim.opt.shiftwidth = 4 -- insert 4 spaces on a tab when shifting
 vim.opt.expandtab = true -- change to spaces when tabbing
 
@@ -17,7 +17,7 @@ vim.opt.splitright = true -- open new horizontal window split right
 vim.opt.scrolloff = 2 -- keep 2 lines when scrolling vertially
 
 -- Searching
-vim.opt.insearch = true -- search as characters are entered
+vim.opt.incsearch = true -- search as characters are entered
 vim.opt.hlsearch = true -- highlight matches
 vim.opt.ignorecase = true -- ignore cases in search by default
 vim.opt.smartcase = true -- but make it sensitive if an uppercase is entered
