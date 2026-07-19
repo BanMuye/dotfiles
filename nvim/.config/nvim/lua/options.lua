@@ -1,3 +1,4 @@
+-- System
 vim.opt.clipboard = 'unnamedplus' -- use system clipboard
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' } -- pop menu even with one option without selecting
 vim.opt.mouse = 'a' -- allow use mouse

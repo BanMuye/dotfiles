@@ -28,4 +28,10 @@ brew "python"
 cask "ghostty"
 
 # Tools
-brew maccy
+cask "maccy"
+
+# Format
+brew "shfmt"
+brew "stylua"
+brew "ruff"
+brew "prettier"

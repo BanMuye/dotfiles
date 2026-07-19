@@ -9,8 +9,6 @@ require("mason").setup({
 	},
 })
 
-require("nvim-lspconfig").setup({})
-
 local servers = {
     "bashls",
     "jdtls",

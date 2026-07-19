@@ -24,7 +24,14 @@ vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 vim.keymap.set('n', 'gh', '^', opts)
 vim.keymap.set('n', 'gl', '$', opts)
 
-
+-- Format
+local function format_buffer()
+    require("conform").format({
+        async = true,
+        lsp_format = "fallback",
+    })
+end
+vim.keymap.set('n', '<leader>f', format_buffer, opts)
 
 --------------------
 --- Virtual Mode ---
