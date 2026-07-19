@@ -7,3 +7,7 @@ homebrew_install() {
     brew bundle \
         --file = "$DOTFILES_DIR/Brewfile"
     }
+
+install() {
+    homebrew_install();
+}

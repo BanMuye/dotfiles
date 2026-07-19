@@ -9,8 +9,10 @@ require("mason").setup({
 	},
 })
 
+require("nvim-lspconfig").setup({})
 
 local servers = {
+    "bashls",
     "jdtls",
     "pyright",
     "rust_analyzer",
