@@ -1,1 +1,1 @@
-vim.cmd.colorscheme("hardhacker")
+vim.cmd.colorscheme("tokyonight")

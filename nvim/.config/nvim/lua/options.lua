@@ -1,6 +1,7 @@
 -- System
 vim.opt.clipboard = 'unnamedplus' -- use system clipboard
 vim.opt.completeopt = { 'menu', 'menuone', 'noselect' } -- pop menu even with one option without selecting
+vim.opt.showmode = false -- do not show mode name
 vim.opt.mouse = 'a' -- allow use mouse
 
 -- Tab

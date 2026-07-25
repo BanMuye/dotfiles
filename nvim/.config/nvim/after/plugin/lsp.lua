@@ -65,6 +65,7 @@ local servers = {
 	"ts_ls",
 	"html",
 	"cssls",
+    "lua_ls",
 }
 
 require("mason-lspconfig").setup({
