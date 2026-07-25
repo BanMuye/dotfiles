@@ -10,7 +10,7 @@ local treesitter = require("nvim-treesitter")
 
 treesitter.setup({})
 treesitter.install({
-	"back",
+	"bash",
 	"css",
 	"html",
 	"java",
@@ -34,6 +34,6 @@ vim.api.nvim_create_autocmd("FileType", {
 		clear = true,
 	}),
 	callback = function(event)
-		pcall(vim.treesiter.start, event.buf)
+		pcall(vim.treesitter.start, event.buf)
 	end,
 })
