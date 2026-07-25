@@ -1,7 +1,7 @@
 # set history options
 typeset -g HISTFILE="$XDG_CACHE_HOME/zsh/history"
 typeset -g HISTSIZE=10000
-typeset -g HISTSIZE=10000
+typeset -g SAVEHIST=10000
 
 mkdir -p "${HISTFILE:h}"
 

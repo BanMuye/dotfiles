@@ -12,3 +12,6 @@ ZSH_LOCAL_DIR="$HOME/.config/zsh-local"
 
 # set path
 source "$ZDOTDIR/paths.zsh"
+
+# set Neovim's log path
+export NVIM_LOG_FILE="$XDG_STATE_HOME/nvim/nvim.log"

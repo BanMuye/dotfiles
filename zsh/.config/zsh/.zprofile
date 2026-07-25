@@ -1,4 +1,3 @@
-source "$ZDOTDIR/paths.zsh"
 source "$ZDOTDIR/environment.zsh"
 
 # source local path and environment
