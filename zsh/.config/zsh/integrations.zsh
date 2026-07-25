@@ -1,6 +1,6 @@
 # Prompt
-if (( $+commands[startship] )); then
-    eval "$(startship init zsh)"
+if (( $+commands[starship] )); then
+    eval "$(starship init zsh)"
 fi
 
 # directory navigation

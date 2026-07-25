@@ -38,7 +38,7 @@ brew "prettier"
 brew "tree-sitter-cli"
 
 # Prompt
-brew "startship"
+brew "starship"
 
 # Directory tool
 brew "zoxide"
