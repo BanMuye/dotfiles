@@ -35,3 +35,17 @@ brew "shfmt"
 brew "stylua"
 brew "ruff"
 brew "prettier"
+brew "tree-sitter-cli"
+
+# Prompt
+brew "startship"
+
+# Directory tool
+brew "zoxide"
+
+# File browser
+brew "yazi"
+
+# Git
+brew "git-delta"
+brew "lazygit"
