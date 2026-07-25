@@ -1,0 +1,32 @@
+[core]
+      editor = nvim
+      pager = delta
+      autocrlf = input
+      whitespace = trailing-space,space-before-tab
+
+  [interactive]
+      diffFilter = delta --color-only
+
+  [delta]
+      navigate = true
+      side-by-side = true
+      line-numbers = true
+
+  [diff]
+      colorMoved = default
+
+  [merge]
+      conflictStyle = zdiff3
+
+  [fetch]
+      prune = true
+
+  [init]
+      defaultBranch = main
+
+  [rerere]
+      enabled = true
+      autoupdate = true
+
+  [include]
+      path = ~/.gitconfig.local
