@@ -9,3 +9,6 @@ ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # set local zsh path
 ZSH_LOCAL_DIR="$HOME/.config/zsh-local"
+
+# set path
+source "$ZDOTDIR/paths.zsh"

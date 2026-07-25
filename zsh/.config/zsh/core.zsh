@@ -3,7 +3,7 @@ typeset -g HISTFILE="$XDG_CACHE_HOME/zsh/history"
 typeset -g HISTSIZE=10000
 typeset -g HISTSIZE=10000
 
-mkdir -p '${HISTFILE:h}'
+mkdir -p "${HISTFILE:h}"
 
 setopt APPEND_HISTORY
 setopt SHARE_HISTORY
