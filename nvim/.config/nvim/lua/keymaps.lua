@@ -42,12 +42,6 @@ vim.keymap.set("n", "gl", "$", opts)
 --- Insert Mode---
 ------------------
 
--- Cursor move
-vim.keymap.set("i", "<C-h>", "<Left>", opts)
-vim.keymap.set("i", "<C-j>", "<Down>", opts)
-vim.keymap.set("i", "<C-k>", "<Up>", opts)
-vim.keymap.set("i", "<C-l>", "<Right>", opts)
-
 --------------------
 --- Virtual Mode ---
 --------------------

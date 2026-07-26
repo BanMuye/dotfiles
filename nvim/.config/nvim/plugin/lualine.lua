@@ -17,7 +17,7 @@ require("lualine").setup({
 		globalstatus = true,
 
 		-- enable icons
-		icons_enable = true,
+		icons_enabled = true,
 
 		-- remove separators between major sections
 		section_separators = "",

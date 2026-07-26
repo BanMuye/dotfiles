@@ -9,6 +9,6 @@ vim.pack.add({
 	},
 	{
 		src = "https://github.com/mason-org/mason-lspconfig.nvim.git",
-        name = "mason-lspconfig",
+        name = "mason-lspconfig.nvim",
 	},
 })

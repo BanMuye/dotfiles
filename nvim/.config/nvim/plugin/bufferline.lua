@@ -36,15 +36,3 @@ require("bufferline").setup({
 		show_tab_indicators = true,
 	},
 })
-
-vim.keymap.set("n", "<S-h>", "<CMD>BufferLineCyclePrev<CR>", {
-	silent = true,
-	noremap = true,
-	desc = "Go to previous buffer",
-})
-
-vim.keymap.set("n", "<S-l>", "<CMD>BufferLineCycleNext<CR>", {
-	silent = true,
-	noremap = true,
-	desc = "Go to next buffer",
-})
