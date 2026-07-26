@@ -61,13 +61,13 @@ require("blink.cmp").setup({
 			-- Show documentation automatically
 			auto_show = true,
 		},
-        
-        -- Do not select first item by default
-        list = {
-            selection = {
-                preselect = false
-            }
-        }
+
+		-- Do not select first item by default
+		list = {
+			selection = {
+				preselect = false,
+			},
+		},
 	},
 
 	-- Signature help when tying
