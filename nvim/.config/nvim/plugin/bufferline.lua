@@ -9,9 +9,6 @@ vim.pack.add({
 	},
 })
 
--- enable true-color support required by bufferline
-vim.opt.termguicolors = true
-
 require("bufferline").setup({
 	options = {
 		-- show open buffers instead of Neovim tabpages
