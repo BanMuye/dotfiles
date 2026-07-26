@@ -47,16 +47,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	end,
 })
 
-require("mason").setup({
-	ui = {
-		icons = {
-			package_installed = "✓",
-			package_pending = "➜",
-			package_uninstalled = "✗",
-		},
-	},
-})
-
 local servers = {
 	"bashls",
 	"jdtls",
@@ -65,7 +55,7 @@ local servers = {
 	"ts_ls",
 	"html",
 	"cssls",
-    "lua_ls",
+	"lua_ls",
 }
 
 require("mason-lspconfig").setup({

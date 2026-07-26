@@ -1,5 +1,9 @@
 vim.pack.add({
 	{
+		src = "https://github.com/nvim-tree/nvim-web-devicons.git",
+		name = "nvim-web-devicons",
+	},
+	{
 		src = "https://github.com/nvim-lualine/lualine.nvim.git",
 		name = "lualine",
 	},

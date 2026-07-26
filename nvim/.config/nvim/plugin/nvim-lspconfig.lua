@@ -1,3 +1,6 @@
 vim.pack.add({
-    { src = "https://github.com/neovim/nvim-lspconfig.git"}
+	{
+		src = "https://github.com/neovim/nvim-lspconfig.git",
+		name = "nvim-lspconfig",
+	},
 })
