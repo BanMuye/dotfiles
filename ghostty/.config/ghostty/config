@@ -1,1 +1,7 @@
 keybind = global:cmd+e=toggle_quick_terminal
+
+# Resize splits faster than Ghostty's 10px default.
+keybind = cmd+ctrl+arrow_up=resize_split:up,20
+keybind = cmd+ctrl+arrow_down=resize_split:down,20
+keybind = cmd+ctrl+arrow_left=resize_split:left,20
+keybind = cmd+ctrl+arrow_right=resize_split:right,20
