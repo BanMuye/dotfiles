@@ -1,3 +1,8 @@
+# Java version manager
+if (( $+commands[jenv] )); then
+    eval "$(jenv init -)"
+fi
+
 # Prompt
 if (( $+commands[starship] )); then
     eval "$(starship init zsh)"

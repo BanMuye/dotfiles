@@ -12,6 +12,7 @@ brew "tree"
 brew "wget"
 
 # Java
+brew "jenv"
 brew "openjdk@17"
 brew "maven"
 
@@ -23,6 +24,7 @@ brew "node"
 
 # Python
 brew "python"
+brew "uv"
 
 # Terminal
 cask "ghostty"
